@@ -5,11 +5,11 @@ import sidebar from "./sidebar";
 
 export default hopeTheme({
   // 主题选项：https://theme-hope.vuejs.press/zh/config/theme/layout.html
-  hostname: "https://newzone.top",
+  hostname: "https://handongfang.github.io/LearnData/",
 
   author: {
-    name: "清顺",
-    url: "https://newzone.top",
+    name: "Jack·Han",
+    url: "https://handongfang.github.io/LearnData/",
   },
 
   iconAssets: "iconfont",
@@ -35,7 +35,7 @@ export default hopeTheme({
   fullscreen: true,
 
   // 默认为 GitHub. 同时也可以是一个完整的 URL
-  repo: "rockbenben/LearnData",
+  repo: "handongfang/LearnData",
   // 自定义仓库链接文字。默认从 `repo` 中自动推断为 "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
   repoLabel: "GitHub",
   // 是否在导航栏内显示仓库链接，默认为 `true`
@@ -74,16 +74,12 @@ export default hopeTheme({
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
-      GitHub: "https://github.com/rockbenben",
-      Zhihu: "https://www.zhihu.com/people/qingwhat",
-      '少数派': [
-        "https://sspai.com/u/zqj05i4v/posts",
-        path.resolve(__dirname, "icons/sspai.svg"),
-      ],
-      Wechat: "https://tc.seoipo.com/wechat.svg",
-      Email: "mailto:learndata@newzone.top",
-      Discord: "https://discord.gg/PZTQfJ4GjX",
-      RSS: "https://newzone.top/rss.xml",
+      GitHub: "https://github.com/handongfang",
+      Zhihu: "https://www.zhihu.com/",
+      Wechat: "",
+      Email: "2293496626@qq.com",
+      Discord: "https://discord.com/",
+      RSS: "https://handongfang.github.io/LearnData/rss.xml",
     },
   },
   // 开发模式下是否启动热更新，显示所有更改并重新渲染
